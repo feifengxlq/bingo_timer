@@ -31,8 +31,9 @@ Bingo_Timer::toString();//echo:799 usleep:50488
 ```
 
 
-get now time, like time(), with cache
+get now time
 --------------------------------------
+
 
 ```php
 <?php
