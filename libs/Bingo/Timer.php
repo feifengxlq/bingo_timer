@@ -3,7 +3,7 @@
  * 定时器，用于计算一段代码的执行时间。
  * 时间单位是us
  * calculate execution time
- * @author xuliqiang <xuliqiang@baidu.com>
+ * @author feifengxlq <feifengxlq@gmail.com>
  * @package bingo
  * @since 2010-04-07
  *
