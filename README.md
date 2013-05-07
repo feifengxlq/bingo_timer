@@ -3,6 +3,39 @@ bingo_timer
 
 timer, for calculate execution time
 
+install
+==========
+
+todo...
+
 usage
 ===========
-TODO
+
+calculate timer
+---------------
+
+```php
+<?php
+Bingo_Timer::start('usleep');
+usleep(50000);
+Bingo_Timer::end('usleep');
+?>
+```
+tostring
+--------
+
+```php
+<?php
+Bingo_Timer::toString();//echo:799 usleep:50488
+?>
+```
+
+
+get now time, like time(), with cache
+--------------------------------------
+
+```php
+<?php
+Bingo_Timer::getNowTime()
+?>
+```
